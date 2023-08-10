@@ -6,15 +6,39 @@ public class LoopPractise6 {
             if (i == 3) {
                 continue;
             }
-            System.out.println(i+"==");
+            System.out.println(i + "==");
         }
 
-        for (int j=0;j<10;j++){
-            if(j==3){
+        for (int j = 0; j < 10; j++) {
+            if (j == 3) {
                 break;
             }
-            System.out.println(j+"==");
+            System.out.println(j + "==");
         }
         System.out.println("For finished");
+
+
+        /*
+
+
+        ********
+         *******
+          ******
+           *****
+            ****
+             ***
+              **
+               *
+
+
+         0--*
+         1--*
+         */
+
+
+
+
+
+
     }
 }
