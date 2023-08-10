@@ -17,28 +17,5 @@ public class LoopPractise6 {
         }
         System.out.println("For finished");
 
-
-        /*
-
-
-        ********
-         *******
-          ******
-           *****
-            ****
-             ***
-              **
-               *
-
-
-         0--*
-         1--*
-         */
-
-
-
-
-
-
     }
 }
