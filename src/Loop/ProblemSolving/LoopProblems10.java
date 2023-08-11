@@ -17,7 +17,7 @@ public class LoopProblems10 {
             for (int boshluq=0;boshluq<setir;boshluq++){
                 System.out.print(" ");
             }
-            for (int ulduz =0; ulduz<setirsayi*2-(setir*2+1);ulduz++){
+            for (int ulduz =0; ulduz<(setirsayi-setir)*2-1;ulduz++){
                 System.out.print("*");
             }
             System.out.println();
