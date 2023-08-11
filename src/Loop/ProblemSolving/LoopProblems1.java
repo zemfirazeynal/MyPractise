@@ -1,4 +1,4 @@
-package Loop;
+package Loop.ProblemSolving;
 
 public class LoopProblems1 {
     public static void main(String[] args) {

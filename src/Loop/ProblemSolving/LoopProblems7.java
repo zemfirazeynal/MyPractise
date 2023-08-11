@@ -1,4 +1,4 @@
-package Loop;
+package Loop.ProblemSolving;
 
 public class LoopProblems7 {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class LoopProblems7 {
                 if (j!=2) {
                     System.out.print(" ");
                 }else {
-                    System.out.print("  ");
+                    System.out.print(" ");
                 }
             }
             System.out.println(" ");
