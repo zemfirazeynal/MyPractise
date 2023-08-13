@@ -4,11 +4,16 @@ public class LoopProblems9 {
     public static void main(String[] args) {
         /*
         9.
-           *     1
-          ***    2
-         *****   3
-        *******  4
-       ********* 5
+            *     1
+           ***    2
+          *****   3
+         *******  4
+        ********* 5
+       ***********
+      *************
+     ***************
+    *****************
+
          */
 
         int setirsayi=5;
@@ -23,6 +28,5 @@ public class LoopProblems9 {
 
             System.out.println();
         }
-
     }
 }

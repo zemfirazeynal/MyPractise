@@ -8,7 +8,7 @@ public class DataTypesPractise2 {
         int x = 500000; // 5 mb
         System.out.println("int x="+x);
 
-        long y = x; // 10 mb
+        long y = (long) x; // 10 mb
         System.out.println("long y="+y);
 
         long l = 25; // int dəyərini mənimsəyə bilir, çünki həcmi daha çoxdur

@@ -17,5 +17,8 @@ public class LoopPractise6 {
         }
         System.out.println("For finished");
 
+        for (int i = 0; i < 10; i++)
+            System.out.println("i= "+i);
+            System.out.println("For finished");
     }
 }

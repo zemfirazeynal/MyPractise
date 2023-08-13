@@ -2,6 +2,8 @@ package Loop.ProblemSolving;
 
 public class LoopProblems10 {
     public static void main(String[] args) {
+
+
         /*
         10.
       *********** 11
