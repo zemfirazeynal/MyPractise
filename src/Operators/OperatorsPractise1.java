@@ -2,11 +2,11 @@ package Operators;
 
 public class OperatorsPractise1 {
     public static void main(String[] args) {
-        double a = 5;
-        double b = 2;
+        int a = 5;
+        int b = 2;
 
-        double topla = a+b;
-        System.out.println("topla=" +topla);
+        double i4_3 =  a/ (double)b;
+        System.out.println("i4_3=" +i4_3); //i4_3=2.5
 
         double vur = a*b;
         System.out.println("vur=" +vur);
