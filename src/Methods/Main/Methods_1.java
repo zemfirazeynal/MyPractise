@@ -1,6 +1,6 @@
-package Methods;
+package Methods.Main;
 
-public class Methods {
+public class Methods_1 {
         public static void main(String[] args) {
             String s = foo2();
             System.out.println("s="+s);
