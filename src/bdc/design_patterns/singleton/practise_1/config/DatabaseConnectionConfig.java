@@ -1,14 +1,18 @@
-package bdc.design_patterns.singleton.config;
+package bdc.design_patterns.singleton.practise_1.config;
 
 public class DatabaseConnectionConfig {
     private String url;
     private String username;
     private String password;
 
+    private DatabaseConnectionConfig() {
+
+    }
+
     private static DatabaseConnectionConfig databaseConnectionConfig;
 
-    public static DatabaseConnectionConfig getDatabaseConnectionConfig(){
-        if(databaseConnectionConfig==null){
+    public static DatabaseConnectionConfig getDatabaseConnectionConfig() {
+        if (databaseConnectionConfig == null) {
             databaseConnectionConfig = new DatabaseConnectionConfig();
         }
         databaseConnectionConfig.username = "new - database - username";
@@ -29,7 +33,5 @@ public class DatabaseConnectionConfig {
         return password;
     }
 
-    private DatabaseConnectionConfig(){
 
-    }
 }
