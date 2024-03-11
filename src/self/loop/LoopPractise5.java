@@ -1,4 +1,4 @@
-package Loop;
+package self.loop;
 
 public class LoopPractise5 {
     public static void main(String[] args) {

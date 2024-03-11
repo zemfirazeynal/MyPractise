@@ -11,10 +11,10 @@ public class LoopProblems7 {
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 6; j++) {
-                System.out.print("= ");
+                System.out.print("=");
 
                 if (j!=2) {
-                    System.out.print(" ");
+                    System.out.print("");
                 }else {
                     System.out.print(" ");
                 }

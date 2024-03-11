@@ -9,22 +9,18 @@ public class LoopProblems9 {
           *****   3
          *******  4
         ********* 5
-       ***********
-      *************
-     ***************
-    *****************
+
 
          */
-
-        int rowCount =11;
-        for (int row=0;row<rowCount;row++){
-
-            for (int space =0; space<rowCount-row; space++){
+        int row = 5;
+        for (int i =1; i<=row; i++){
+            for (int j =0; j<row-i;j++){
                 System.out.print(" ");
             }
-            for (int star =0; star<1+(row*2); star++){
+            for (int j =1; j<i*2;j++){
                 System.out.print("*");
             }
+
             System.out.println();
         }
     }

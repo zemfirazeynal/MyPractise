@@ -6,6 +6,5 @@ public class LoopPractise13 {
             System.out.println(i+" Hello!");
             return;
         }
-
     }
 }
