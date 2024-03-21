@@ -13,8 +13,13 @@ public class Main {
         System.out.println("substring: "+fullName.substring(3));
         System.out.println("contains: "+name.contains("ira"));
         //System.out.println("contains: "+name.contains('r')); char olmaz
-        System.out.println("startWith: "+name.startsWith("Zem"));;
+
+        System.out.println("startWith: "+name.startsWith("Zem"));
+        //System.out.println("startWith: "+name.startWith('Z')); char olmaz
+
         System.out.println("endsWith: "+name.endsWith("Zem"));
+        //System.out.println("endsWith: "+name.endsWith('Z')); char olmaz
+
         System.out.println("trim: "+lastName.trim());
         System.out.println("toLowerCase: "+lastName.toLowerCase());
         System.out.println("toLowerCase: "+lastName.toUpperCase());
