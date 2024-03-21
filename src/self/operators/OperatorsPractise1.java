@@ -5,8 +5,8 @@ public class OperatorsPractise1 {
         int a = 5;
         int b = 2;
 
-        double i4_3 =  a/ (double)b;
-        System.out.println("i4_3=" +i4_3); //i4_3=2.5
+        double bol_2 =  a/ (double)b;
+        System.out.println("bol_2=" +bol_2); //bol_2=2.5
 
         double vur = a*b;
         System.out.println("vur=" +vur);

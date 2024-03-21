@@ -1,4 +1,4 @@
-package DataTypes.Practise;
+package self.dataTypes.Practise;
 
 public class Z_Practise1 {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Z_Practise1 {
 
         int a=5;
 
-        long l =5;
+        long l =555555555555555555L;
 
         int b= (int) l;
 
