@@ -5,7 +5,7 @@ public class LoopPractise10 {
         int i = 0;
         do {
             // filan ishi gor
-            i++;
+            i++; // 1
             if(i==3) continue;
             System.out.println("i="+(i));
         }while (i<10);

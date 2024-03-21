@@ -13,17 +13,18 @@ public class LoopProblems10 {
           ***  3
            *  1
          */
-        int setirsayi =6;
-        for (int setir=0;setir<setirsayi;setir++){
 
-            for (int boshluq=0;boshluq<setir;boshluq++){
+        int row = 5;
+        for (int i =0; i<row; i++){
+            for (int j =0; j<i;j++){
                 System.out.print(" ");
             }
-            for (int ulduz =0; ulduz<(setirsayi-setir)*2-1;ulduz++){
+            for (int j =0; j<(row-i)*2-1;j++){
                 System.out.print("*");
-            }
-            System.out.println();
 
+            }
+
+            System.out.println();
         }
     }
 }
