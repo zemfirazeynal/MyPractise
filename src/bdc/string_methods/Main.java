@@ -18,8 +18,11 @@ public class Main {
         System.out.println("trim: "+lastName.trim());
         System.out.println("toLowerCase: "+lastName.toLowerCase());
         System.out.println("toLowerCase: "+lastName.toUpperCase());
+        System.out.println("indexOf: "+fullName.indexOf("Zem"));
         System.out.println("indexOf: "+fullName.indexOf('Z'));
-        System.out.println("indexOf: "+fullName.lastIndexOf('Z'));
+
+        System.out.println("lastIndexOf: "+fullName.lastIndexOf('Z'));
+        System.out.println("lastIindexOf: "+fullName.lastIndexOf("Ze"));
 
 
     }
