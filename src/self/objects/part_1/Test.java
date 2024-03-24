@@ -1,4 +1,4 @@
-package self.objects;
+package self.objects.part_1;
 
 public class Test {
     public static void change(){
