@@ -1,4 +1,4 @@
-package self.objects;
+package self.objects.part_1;
 
 public class Main {
     public static User u = new User();
